@@ -3,9 +3,9 @@
 #include <ArduinoJson.h>
 //convert strings to char* for memory saving
 const int httpPort = 80;
-const char* ssid = "Soul";		//WiFi_ssid
-const char* password = "password@1234";		//WiFi_password
-const char* host = "esphome.16mb.com";		// Domain  
+const char* ssid = "";		//WiFi_ssid
+const char* password = "";		//WiFi_password
+const char* host = "xyz.com";		// Domain  
 String switchpath = "/jsontest.php";   //Path to JSON (Settings)
 const int pin = 2;					//GPIO2
 String timefunc = "/currtime.php";
